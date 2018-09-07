@@ -161,7 +161,7 @@
         else
             api = net;
 
-        if (fomo3dLike.indexOf(contractAddress) >= 0) {
+        if (fomo3dLike.indexOf(contractAddress.toLocaleLowerCase()) >= 0) {
             getAbiAddress = fomo3dAddress;
         } else {
             getAbiAddress = contractAddress;
